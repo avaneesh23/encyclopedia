@@ -6,10 +6,10 @@
 	
 	<script type="text/javascript">
 		$(document).ready(function() {
-			$.getJSON('http://127.0.0.1:5984/restaurant/_design/menu/_view/items', function(data) {
+			$.getJSON('http://cs5610.iriscouch.com/restaurant/_design/menu/_view/items', function(data) {
 				$.each(data.rows, function (index, row) {
 					
-					var image_url = 'http://127.0.0.1:5984/restaurant/' + row.id + '/' + row.value;
+					var image_url = 'http://cs5610.iriscouch.com/restaurant/' + row.id + '/' + row.value;
 					
 					$('#photos')
 					.append('<h2>' + row.key + '</h2>')
