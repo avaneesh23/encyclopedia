@@ -2,6 +2,7 @@
 var cradle = require('cradle')
 var express = require('express');
 var couchapp = require('couchapp');
+var httpProxy = require('http-proxy');
 
 var db = new(cradle.Connection)('http://cs5610.iriscouch.com', 5984, {
 //var db = new(cradle.Connection)('http://127.0.0.1', 5984, {

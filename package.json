@@ -7,10 +7,17 @@
       "type": "git",
       "url": "https://github.com/avaneesh23/encyclopedia.git" 
   },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avaneesh23/encyclopedia/issues"
+  },
+  "homepage": "https://github.com/avaneesh23/encyclopedia",
+  
   "dependencies": {
     "couchapp": ">= 0.10.0",
     "underscore": ">= 1.5.2",
     "request": ">= 2.27.0",
+	"http-proxy": ">= 1.0.0",
 	"cradle": "0.6.4",
     "nano": "4.4.0",
     "commander": "2.0.0", 
